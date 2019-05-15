@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PieChart">
+        <!--是否显示中心圆-->
+        <attr name="isShowCenterCircle" format="boolean" />
+        <!--是否显示中心字体-->
+        <attr name="isShowCenterText" format="boolean" />
+        <!--圆环是否可以点击-->
+        <attr name="isOpenCheckStatus" format="boolean" />
+        <!--中心圆背景颜色-->
+        <attr name="CenterBgColor" format="color" />
+        <!--中心字体颜色-->
+        <attr name="CenterTextColor" format="color" />
+        <!--中心字体内容-->
+        <attr name="CenterText" format="string" />
+        <!--中心字体大小-->
+        <attr name="CenterTextSize" format="integer" />
+        <!--中心圆半径-->
+        <attr name="CenterRadius" format="integer" />
+        <!--最外部半径-->
+        <attr name="OuterRadius" format="integer" />
+        <!--点击需要凸出的半径-->
+        <attr name="OuterAddRadius" format="integer" />
+        <!--是否显示折线百分比-->
+        <attr name="isShowPercentage" format="boolean" />
+        <!--百分比折线长度-->
+        <attr name="PercentageLong" format="integer" />
+        <!--百分比折线宽度-->
+        <attr name="PercentageWidth" format="integer" />
+        <!--百分比字体大小-->
+        <attr name="PercentageTvSize" format="integer" />
+    </declare-styleable>
+</resources>
