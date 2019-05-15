@@ -5,8 +5,7 @@
 因为目前看到公司设计图初稿有个饼图，一开始想用github上的一些开源的框架，但是感觉框架太全用到的只有一个饼图，并且自己撸一个也是一个学习进步的过程。如果认为还可以可否给个start。
 
 先看下效果图：
-
-![Kapture 2019-05-15 at 11.54.14](/Users/cuipengyu/Desktop/Kapture 2019-05-15 at 11.54.14.gif)
+![效果图](/img/效果图.gif)
 
 ## 绘制扇形
 
@@ -51,7 +50,7 @@ canvas.drawPath(mPath, mPaint);
 
 先看下计算直线点的图，如下（画的有点丑，将就看吧-。-！）：
 
-![画线的原理图](/Users/cuipengyu/Desktop/画线的原理图.jpg)
+![画线的原理图](/img/画线的原理图.jpg)
 
 我们要绘制直线需要起点和中点坐标，如图可以把他看做一个直角三角形，我们要计算stopX,stopY和startX,startY的点。
 
